@@ -2,7 +2,7 @@
     display : flex;
     align-items: center;
     flex-direction: column;
-    gap : 30px
+    gap : 30px;
 }
 
 .hero img{
@@ -59,6 +59,23 @@
     border-color : #b415ff;
 }
 
-.hero-resume{
-
+/* Responsive styling for smaller screens */
+@media (max-width: 768px) {
+    .hero h1 {
+        font-size: 50px; /* Adjusted font size for smaller screens */
+    }
+    .hero p {
+        width: 70%; /* Adjusted width for better readability on smaller screens */
+    }
+    .photo {
+        height: 200px; /* Reduced image height */
+    }
+    .hero-action {
+        flex-direction: column;
+        gap: 15px;
+    }
+    .hero-connect, .hero-resume {
+        padding: 15px 30px; /* Reduced padding for buttons on smaller screens */
+        font-size: 20px; /* Adjusted font size */
+    }
 }

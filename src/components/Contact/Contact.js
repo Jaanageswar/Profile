@@ -32,7 +32,7 @@ const Contact = () => {
     <div className='contact' id='Contact'>
       <div className="contact-title">
         <h1>Get in touch</h1>
-        <img src={theme_pattern} alt="" />
+        <img src={theme_pattern} alt="Decorative pattern" />
       </div>
       <div className="contact-section">
         <div className="contact-left">

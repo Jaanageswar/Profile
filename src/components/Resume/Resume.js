@@ -7,7 +7,7 @@ const Resume = () => {
     <div className='resume' id='Resume'>
         <div className="resume-title">
             <h1>Resume</h1>
-            <img src={theme_pattern} alt="" />
+            <img src={theme_pattern} alt="Decorative pattern" />
         </div>
         <div className="resume-text">
             <p className="resume-para">Please find my resume attached below, detailing my personal information, educational background, and professional skills. To download the document, kindly click the button below.</p>
@@ -15,7 +15,7 @@ const Resume = () => {
         <div className= 'resume-submit'>
           <a style = {{textDecoration:'none',color:'white'}}href={JaanageswarResume} download className="download-button">
           Download Resume
-        </a>
+          </a>
         </div>
     </div>
   )

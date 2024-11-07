@@ -2,7 +2,7 @@
     display : flex;
     align-items: center;
     justify-content: space-between;
-    margin : 20px  70px;
+    margin : 20px 70px;
 }
 .logo{
     width : 50px;
@@ -15,6 +15,7 @@
     list-style : none;
     gap : 60px;
     font-size: 20px;
+    position: relative;/*added*/
 }
 
 .nav-connect{
@@ -37,7 +38,7 @@
 }
 
 .nav-menu li img{
-    display : flex;
+    /*display : flex;*/
     margin : auto;
 }
 
@@ -84,7 +85,8 @@
         height : 100%;
         z-index: 2;
         transition : right 0.3s;
-        right  : -330px
+        right  : -330px;
+
     }
     .nav-menu li{
         font-size : 30px;

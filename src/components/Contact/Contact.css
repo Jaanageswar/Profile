@@ -9,6 +9,7 @@
 
 .contact-title{
     position: relative;
+    text-align: center; /* Center-aligns title on mobile */
 }
 .contact-title h1{
     padding : 0px 30px;
@@ -117,3 +118,48 @@
     transition : 0.3s;
 }
 
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .contact {
+        margin: 40px 20px; /* Reduce margins for mobile */
+        gap: 40px;
+    }
+
+    .contact-title h1 {
+        font-size: 50px; /* Smaller font size for mobile */
+    }
+
+    .contact-section {
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+    }
+
+    .contact-left h1 {
+        font-size: 40px; /* Adjust title font size for mobile */
+    }
+
+    .contact-left p {
+        font-size: 14px;
+        text-align: center; /* Center-aligns text on mobile */
+        line-height: 25px;
+    }
+
+    .contact-details {
+        gap: 20px;
+    }
+
+    .contact-right {
+        width: 100%; /* Full width on mobile */
+    }
+
+    .contact-right label {
+        font-size: 20px; /* Reduce label font size */
+    }
+
+    .contact-right input,
+    .contact-right textarea {
+        width: 100%; /* Full width on mobile */
+        font-size: 18px;
+    }
+}

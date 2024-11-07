@@ -1,7 +1,7 @@
 import React from 'react'
 import './Resume.css'
 import theme_pattern from '../../assets/theme_pattern.svg';
-import JaanageswarResume from 'G:\\Profile\\profile\\src\\components\\Resume\\Jaanageswar_S _CV.pdf'
+import JaanageswarResume from './Jaanageswar_S.pdf'
 const Resume = () => {
   return (
     <div className='resume' id='Resume'>

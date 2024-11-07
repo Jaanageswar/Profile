@@ -13,8 +13,8 @@
 
 .hero h1{
     text-align : center;
-    width : 70%;
-    font-size : 70px;
+    width : 100%;
+    font-size : 65px;
     font-weight : 500;
     background : linear-gradient(270deg , #df8908 10% , #b415ff 100%);
     background-clip : text;
@@ -22,7 +22,7 @@
     -webkit-background-clip: text;
 }
 .hero p{
-    width : 50%;
+    width : 60%;
     text-align : center;
     font-size : 24px;
     line-height : 40px;
@@ -61,12 +61,7 @@
 
 /* Responsive styling for smaller screens */
 @media (max-width: 768px) {
-    .hero h1 {
-        font-size: 35px; /* Adjusted font size for smaller screens */
-    }
-    .hero p {
-        width: 70%; /* Adjusted width for better readability on smaller screens */
-    }
+
     .photo {
         height: 200px; /* Reduced image height */
     }

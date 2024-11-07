@@ -62,7 +62,7 @@
 /* Responsive styling for smaller screens */
 @media (max-width: 768px) {
     .hero h1 {
-        font-size: 50px; /* Adjusted font size for smaller screens */
+        font-size: 35px; /* Adjusted font size for smaller screens */
     }
     .hero p {
         width: 70%; /* Adjusted width for better readability on smaller screens */

@@ -1,0 +1,65 @@
+.resume{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+    margin: 80px  170px;
+}
+
+.resume-title{
+    position: relative;
+}
+
+.resume-title h1{
+    font-weight: 600;
+    font-size: 90px;
+    padding: 0px 30px;
+}
+
+.resume-title img{
+    position: absolute;
+    z-index : -1;
+    bottom : 0;
+    right : 0;
+}
+
+.resume-title{
+    display : flex;
+    flex-direction : column;
+    gap : 20px
+}
+
+.resume-para{
+    display: flex;
+    font-weight: 500;
+    font-size : 30px;
+    text-align:center;
+    margin: 0 20px; /* Added margin for readability */
+}
+
+.download-button{
+    padding: 10px 20px;
+    border-radius: 50px;
+    background-image : linear-gradient(267deg,#DA7c25 0.36%,#B923E1 102%);
+    cursor : pointer ;
+    font-size: 20px;
+    transition : 0.5s;
+}
+
+.resume-submit{
+    border : none;
+    color : white;
+    border-radius : 50px;
+    background : linear-gradient(270deg,#df8908 -5.09%, #b415ff 106.2%);
+    font-size : 20px;
+    padding : 15px 40px;
+    margin-bottom : 30px;
+    cursor : pointer;
+    transition : 0.3s;
+}
+
+.resume-submit:hover{
+    transform : scale(1.08);
+    transition : 0.3s;
+}

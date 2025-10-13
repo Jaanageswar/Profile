@@ -282,18 +282,17 @@
     cursor: pointer;
     display: inline-block;
     text-align: center;
-    box-shadow: 0 4px 15px rgba(223, 137, 8, 0.3);
+    white-space: nowrap;
 }
 
 .github-button:hover{
-    transform: translateY(-2px);
-    box-shadow: 0 6px 20px rgba(223, 137, 8, 0.4);
+    transform: scale(1.05);
     color: white;
     text-decoration: none;
 }
 
 .github-button:active{
-    transform: translateY(0);
+    transform: scale(1.02);
 }
 
 /* Responsive design for GitHub section */

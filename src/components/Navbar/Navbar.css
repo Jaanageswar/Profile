@@ -87,62 +87,6 @@
     display : none;
 }
 
-/* Large screens (TV, Large Desktop) */
-@media (min-width: 1920px) {
-    .navbar {
-        margin: 30px 100px;
-        padding: 15px 0;
-    }
-    
-    .logo {
-        width: 60px;
-        height: 60px;
-    }
-    
-    .nav-menu {
-        gap: 80px;
-        font-size: 22px;
-    }
-    
-    .nav-connect {
-        padding: 18px 35px;
-        font-size: 22px;
-    }
-}
-
-/* Laptop screens */
-@media (max-width: 1440px) and (min-width: 1024px) {
-    .navbar {
-        margin: 25px 60px;
-    }
-    
-    .nav-menu {
-        gap: 50px;
-        font-size: 19px;
-    }
-    
-    .nav-connect {
-        padding: 15px 30px;
-        font-size: 20px;
-    }
-}
-
-/* Tablet screens */
-@media (max-width: 1023px) and (min-width: 769px) {
-    .navbar {
-        margin: 20px 40px;
-    }
-    
-    .nav-menu {
-        gap: 40px;
-        font-size: 18px;
-    }
-    
-    .nav-connect {
-        padding: 12px 25px;
-        font-size: 18px;
-    }
-}
 
 /* Mobile screens */
 @media (max-width: 768px) {
@@ -196,6 +140,10 @@
         transition: right 0.3s ease;
         padding-top: 80px;
         box-shadow: -5px 0 15px rgba(0, 0, 0, 0.3);
+    }
+    
+    .nav-menu.nav-menu-open {
+        right: 0;
     }
     
     .nav-menu li {

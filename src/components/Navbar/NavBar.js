@@ -13,13 +13,13 @@ const NavBar = () => {
   const menuRef =useRef();
 
   const openMenu = () => {
-    menuRef.current.style.right = '0';
+    menuRef.current.classList.add('nav-menu-open');
     menuRef.current.setAttribute("aria-hidden", "false");
     setIsMenuOpen(true);
   }
 
   const closeMenu = () => {
-    menuRef.current.style.right = "-350px";
+    menuRef.current.classList.remove('nav-menu-open');
     menuRef.current.setAttribute("aria-hidden", "true");
     setIsMenuOpen(false);
   }

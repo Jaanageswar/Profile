@@ -179,6 +179,7 @@
         width: 25px;
         height: 25px;
         cursor: pointer;
+        z-index: 1001;
     }
     
     .nav-menu {
@@ -227,6 +228,15 @@
         top: 15px;
         width: 25px;
         height: 25px;
+        z-index: 1000;
+    }
+    
+    .nav-mob-close {
+        right: 15px;
+        top: 15px;
+        width: 20px;
+        height: 20px;
+        z-index: 1001;
     }
     
     .nav-menu {

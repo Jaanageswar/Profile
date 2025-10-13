@@ -63,3 +63,135 @@
     transform : scale(1.08);
     transition : 0.3s;
 }
+
+/* Large Desktop and TV (1400px+) */
+@media (min-width: 1400px) {
+    .resume {
+        margin: 100px auto;
+        max-width: 1400px;
+        gap: 80px;
+    }
+    .resume-title h1 {
+        font-size: 100px;
+    }
+    .resume-para {
+        font-size: 32px;
+        max-width: 800px;
+    }
+    .resume-submit {
+        font-size: 22px;
+        padding: 18px 45px;
+    }
+}
+
+/* Desktop (1200px - 1399px) */
+@media (min-width: 1200px) and (max-width: 1399px) {
+    .resume {
+        margin: 80px auto;
+        max-width: 1200px;
+        gap: 60px;
+    }
+    .resume-title h1 {
+        font-size: 90px;
+    }
+    .resume-para {
+        font-size: 30px;
+        max-width: 700px;
+    }
+}
+
+/* Laptop (992px - 1199px) */
+@media (min-width: 992px) and (max-width: 1199px) {
+    .resume {
+        margin: 60px 50px;
+        gap: 50px;
+    }
+    .resume-title h1 {
+        font-size: 80px;
+    }
+    .resume-para {
+        font-size: 26px;
+        max-width: 600px;
+    }
+    .resume-submit {
+        font-size: 18px;
+        padding: 14px 35px;
+    }
+}
+
+/* Tablet (768px - 991px) */
+@media (min-width: 768px) and (max-width: 991px) {
+    .resume {
+        margin: 50px 30px;
+        gap: 40px;
+    }
+    .resume-title h1 {
+        font-size: 60px;
+        padding: 0px 20px;
+    }
+    .resume-para {
+        font-size: 22px;
+        max-width: 500px;
+        margin: 0 15px;
+    }
+    .resume-submit {
+        font-size: 18px;
+        padding: 12px 30px;
+    }
+}
+
+/* Mobile (max-width: 767px) */
+@media (max-width: 767px) {
+    .resume {
+        margin: 40px 20px;
+        gap: 30px;
+    }
+    .resume-title h1 {
+        font-size: 45px;
+        padding: 0px 15px;
+    }
+    .resume-para {
+        font-size: 18px;
+        text-align: center;
+        margin: 0 10px;
+        line-height: 28px;
+        max-width: 100%;
+    }
+    .resume-submit {
+        font-size: 16px;
+        padding: 12px 25px;
+        margin-bottom: 20px;
+    }
+    .download-button {
+        font-size: 16px;
+        padding: 8px 16px;
+    }
+}
+
+/* Small Mobile (max-width: 480px) */
+@media (max-width: 480px) {
+    .resume {
+        margin: 30px 15px;
+        gap: 25px;
+    }
+    .resume-title h1 {
+        font-size: 35px;
+        padding: 0px 10px;
+    }
+    .resume-para {
+        font-size: 16px;
+        text-align: center;
+        margin: 0 5px;
+        line-height: 24px;
+        max-width: 100%;
+    }
+    .resume-submit {
+        font-size: 14px;
+        padding: 10px 20px;
+        margin-bottom: 15px;
+    }
+    .download-button {
+        font-size: 14px;
+        padding: 6px 12px;
+    }
+}

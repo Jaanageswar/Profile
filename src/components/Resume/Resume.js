@@ -14,7 +14,7 @@ const Resume = () => {
         </div>
         <div className= 'resume-submit'>
           <a style = {{textDecoration:'none',color:'white'}}href={JaanageswarResume} download className="download-button">
-          Download Resume
+          My Resume
           </a>
         </div>
     </div>

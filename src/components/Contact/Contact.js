@@ -10,6 +10,24 @@ const Contact = () => {
     event.preventDefault();
     const formData = new FormData(event.target);
 
+    // Get form values
+    const name = formData.get('name');
+    const email = formData.get('email');
+    const message = formData.get('message');
+
+    // Validate form fields
+    if (!name || !email || !message) {
+      alert('Please fill all the details before submitting!');
+      return;
+    }
+
+    // Additional email validation
+    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    if (!emailRegex.test(email)) {
+      alert('Please enter a valid email address!');
+      return;
+    }
+
     formData.append("access_key", "87b89a72-49e2-43fe-a6d4-808a688fc29a");
 
     const object = Object.fromEntries(formData);
@@ -26,6 +44,8 @@ const Contact = () => {
 
     if (res.success) {
       alert(res.message);
+      // Reset form after successful submission
+      event.target.reset();
     }
   };
   return (

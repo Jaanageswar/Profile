@@ -4,30 +4,29 @@
     align-items: center;
     justify-content: center;
     gap: 60px;
-    margin: 80px  170px;
+    margin: 100px 170px;
 }
 
 .resume-title{
     position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
 }
 
 .resume-title h1{
     font-weight: 600;
     font-size: 90px;
     padding: 0px 30px;
+    margin: 0;
 }
 
 .resume-title img{
     position: absolute;
-    z-index : -1;
-    bottom : 0;
-    right : 0;
-}
-
-.resume-title{
-    display : flex;
-    flex-direction : column;
-    gap : 20px
+    z-index: -1;
+    bottom: 0;
+    right: 0;
 }
 
 .resume-para{
@@ -67,7 +66,7 @@
 /* Large Desktop and TV (1400px+) */
 @media (min-width: 1400px) {
     .resume {
-        margin: 100px auto;
+        margin: 120px auto;
         max-width: 1400px;
         gap: 80px;
     }
@@ -146,9 +145,21 @@
         margin: 40px 20px;
         gap: 30px;
     }
+    .resume-title {
+        align-items: center;
+        text-align: center;
+    }
     .resume-title h1 {
         font-size: 45px;
         padding: 0px 15px;
+        margin: 0;
+        text-align: center;
+    }
+    .resume-title img {
+        position: absolute;
+        bottom: -10px;
+        right: 50%;
+        transform: translateX(50%);
     }
     .resume-para {
         font-size: 18px;
@@ -174,9 +185,21 @@
         margin: 30px 15px;
         gap: 25px;
     }
+    .resume-title {
+        align-items: center;
+        text-align: center;
+    }
     .resume-title h1 {
         font-size: 35px;
         padding: 0px 10px;
+        margin: 0;
+        text-align: center;
+    }
+    .resume-title img {
+        position: absolute;
+        bottom: -8px;
+        right: 50%;
+        transform: translateX(50%);
     }
     .resume-para {
         font-size: 16px;
